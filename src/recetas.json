@@ -1,0 +1,318 @@
+{
+  "edicion": "navidad-2026",
+  "titulo": "Recetario Navideño",
+  "marca": "Aserrín",
+  "categorias": [
+    { "id": "entradas", "nombre": "Entradas" },
+    { "id": "sopas", "nombre": "Sopas" },
+    { "id": "plato-fuerte", "nombre": "Plato fuerte" },
+    { "id": "postres", "nombre": "Postres" }
+  ],
+  "recetas": [
+    {
+      "slug": "dip-navideno-queso-tocino",
+      "titulo": "Dip navideño de queso con tocino",
+      "categoria": "entradas",
+      "subtitulo": null,
+      "ingredientes": [
+        {
+          "grupo": null,
+          "items": [
+            "10 rebanadas de tocino",
+            "190 g de queso crema",
+            "3/4 de taza de crema agria",
+            "1/2 cucharadita de ajo en polvo",
+            "2 cebollines finamente picados",
+            "2 cucharadas de perejil fresco picado",
+            "1/2 taza de nuez picada",
+            "Sal y pimienta al gusto"
+          ]
+        }
+      ],
+      "pasos": [
+        "Fríe el tocino y pícalo finamente.",
+        "En un bowl grande, acrema el queso hasta que esté suave y mézclalo con el tocino.",
+        "Agrega todos los demás ingredientes y mézclalos muy bien.",
+        "Sírvelo en un platón grande con galletas crujientes alrededor."
+      ],
+      "notas": [
+        "Puedes decorarlo con aceitunas, pimientos o perejil."
+      ],
+      "relacionadas": []
+    },
+    {
+      "slug": "sandwichon-navideno",
+      "titulo": "Sandwichón navideño",
+      "categoria": "entradas",
+      "subtitulo": null,
+      "ingredientes": [
+        {
+          "grupo": null,
+          "items": [
+            "1 lata de crema agria",
+            "1 paquete de queso crema a temperatura ambiente (190 g)",
+            "16 rebanadas de pan de caja sin orillas",
+            "1 lata de pimiento morrón",
+            "250 g de jamón rebanado",
+            "250 g de queso amarillo",
+            "1/2 cucharadita de sal"
+          ]
+        }
+      ],
+      "pasos": [
+        "Licúa la crema, el queso crema, la mayor parte de los pimientos (reserva el resto para decorar) y la sal.",
+        "Cuando la mezcla esté homogénea, acomoda 4 rebanadas de pan sobre una esterilla de sushi.",
+        "Esparce un poco de la mezcla, agrega el jamón y el queso, y repite el procedimiento hasta formar 4 capas, terminando con pan.",
+        "Enrolla perfectamente, procurando que el pan quede unido.",
+        "Envuelve el rollo en film transparente y refrigéralo un par de horas.",
+        "Pasado ese tiempo, corta el rollo en rodajas pequeñas con un cuchillo."
+      ],
+      "notas": [
+        "Si no tienes esterilla, puedes ayudarte con una bolsa de pan de caja extendida para formar el rollo y cubrirlo."
+      ],
+      "relacionadas": []
+    },
+    {
+      "slug": "crema-de-queso-con-uvas",
+      "titulo": "Crema de queso con uvas",
+      "categoria": "sopas",
+      "subtitulo": null,
+      "ingredientes": [
+        {
+          "grupo": null,
+          "items": [
+            "1/2 barra de mantequilla",
+            "4 cucharadas de fécula de maíz",
+            "400 ml de caldo de pollo (consomé)",
+            "150 g de queso manchego rallado",
+            "100 g de queso gouda rallado",
+            "150 g de queso parmesano rallado",
+            "1 pizca de nuez moscada",
+            "Uvas sin semilla cortadas por la mitad, al gusto",
+            "Sal y pimienta al gusto"
+          ]
+        }
+      ],
+      "pasos": [
+        "En una cacerola derrite la mantequilla, agrega la fécula de maíz y muévela hasta que comience a dorar.",
+        "Vierte el caldo de pollo y añade los quesos. Muévelos constantemente para que se derritan sin pegarse.",
+        "Una vez derretidos, licúa la mezcla y vuelve a vaciarla en la cacerola.",
+        "Cuando hierva, sazona con la nuez moscada, sal y pimienta.",
+        "Sirve con las mitades de uva al centro."
+      ],
+      "notas": [],
+      "relacionadas": []
+    },
+    {
+      "slug": "espagueti-al-cilantro",
+      "titulo": "Espagueti al cilantro",
+      "categoria": "sopas",
+      "subtitulo": null,
+      "ingredientes": [
+        {
+          "grupo": null,
+          "items": [
+            "1 paquete de 400 g de espagueti",
+            "100 g de queso crema",
+            "2 cucharadas de mantequilla",
+            "1 cubito de consomé",
+            "1 manojo de cilantro",
+            "1 diente de ajo",
+            "Queso parmesano al gusto",
+            "Sal y pimienta al gusto"
+          ]
+        }
+      ],
+      "pasos": [
+        "En una olla con agua hirviendo y sal, cuece la pasta hasta que quede al dente (revisa las instrucciones del empaque).",
+        "Escurre el espagueti y enjuágalo con agua fría.",
+        "Licúa el queso crema, el consomé, el cilantro y el ajo hasta que todos los ingredientes estén bien integrados.",
+        "En una sartén grande, derrite la mantequilla y vierte la salsa. Sazona con sal y pimienta y déjala hervir.",
+        "Cuando hierva, agrega la pasta y revuélvela bien en la salsa.",
+        "Sirve y espolvorea con queso parmesano."
+      ],
+      "notas": [],
+      "relacionadas": []
+    },
+    {
+      "slug": "pierna-de-navidad",
+      "titulo": "Pierna de Navidad",
+      "categoria": "plato-fuerte",
+      "subtitulo": "Pierna de 5 kilos",
+      "ingredientes": [
+        {
+          "grupo": null,
+          "items": [
+            "1 pierna de cerdo (5 kg)",
+            "10 ciruelas pasas",
+            "150 g de almendras",
+            "10 rebanadas de tocino"
+          ]
+        },
+        {
+          "grupo": "Para el adobo",
+          "items": [
+            "2 chiles anchos",
+            "1 cebolla",
+            "4 jitomates",
+            "1 cabeza de ajo",
+            "2 ramas de canela",
+            "Pimienta gorda",
+            "Sal",
+            "Un poco de jugo de piña o 3 ciruelas pasas"
+          ]
+        }
+      ],
+      "pasos": [
+        "Prepara el adobo: asa los jitomates, la cebolla y el ajo; desvena los chiles anchos y remójalos en agua caliente. Licúa todo junto con la canela, la pimienta gorda, la sal y el jugo de piña (o las ciruelas pasas) y cuela.",
+        "Mecha la pierna con las ciruelas pasas, las almendras y el tocino.",
+        "Báñala con el adobo y déjala reposar por una hora.",
+        "Guárdala en una bolsa para hornear y hornéala a 180 °C por aproximadamente dos horas, según el horno. Verifica que el centro de la pierna alcance 70 °C; si no, hornea más tiempo."
+      ],
+      "notas": [
+        "Una pierna de 5 kilos puede tardar más de dos horas según el horno: confía más en la temperatura del centro que en el reloj."
+      ],
+      "relacionadas": []
+    },
+    {
+      "slug": "pavo-relleno",
+      "titulo": "Pavo relleno",
+      "categoria": "plato-fuerte",
+      "subtitulo": "1 pavo natural de 6 a 8 kg",
+      "ingredientes": [
+        {
+          "grupo": null,
+          "items": [
+            "6 dientes de ajo molidos",
+            "1 botella de vino blanco",
+            "90 g de mantequilla",
+            "1 taza de aceite de oliva",
+            "1/2 taza de jugo sazonador",
+            "1/2 taza de jugo de naranja",
+            "1/4 de taza de salsa inglesa",
+            "Sal y pimienta al gusto",
+            "1 jeringa para inyectar carnes",
+            "Bolsa para hornear"
+          ]
+        },
+        {
+          "grupo": "Opcional",
+          "items": [
+            "Leche evaporada (en lugar del vino)"
+          ]
+        }
+      ],
+      "pasos": [
+        "Descongela el pavo un día antes. Sácale la bolsita de las menudencias, lávalo bien y deja que se seque.",
+        "Colócalo en un recipiente grande y de la profundidad necesaria (puede ser una pavera o una bandeja de aluminio). Con un cuchillo, pícalo en distintos puntos con cuidado de no romper mucho la piel.",
+        "Úntalo con sal y báñalo con la mitad del vino. Si no quieres usar alcohol, haz lo mismo con leche evaporada.",
+        "Cúbrelo y guárdalo en el refrigerador con la pechuga hacia abajo. Cada dos o tres horas dale la vuelta para que se impregne bien.",
+        "Mezcla un poco del vino sobrante (o de la leche) y 1/2 barrita de mantequilla derretida con los demás ingredientes. Cuando todo esté perfectamente integrado, inyecta el pavo con esta preparación.",
+        "Con mucho cuidado, levanta un poco la piel del pavo y unta entre ella y la carne el resto de la mantequilla y un poco de ajo molido.",
+        "Báñalo con el vino (o leche) restante y métalo en una bolsa para hornear.",
+        "Hornea calculando media hora por cada kilo a 200 °C aproximadamente.",
+        "Para verificar que está cocido, introduce un tenedor: cuando salga seco (sin líquido), ya está listo.",
+        "Con mucho cuidado, quítale la bolsa y ponle un poco de mantequilla en los lugares que quieras dorar."
+      ],
+      "notas": [
+        "El tiempo de horneado depende mucho de cada horno. Se calcula media hora por kilo a 200 °C aproximadamente.",
+        "Además del tenedor, puedes confirmar con un termómetro: la parte más gruesa del muslo debe llegar a 74 °C."
+      ],
+      "relacionadas": ["relleno-de-pavo"]
+    },
+    {
+      "slug": "relleno-de-pavo",
+      "titulo": "Relleno de pavo",
+      "categoria": "plato-fuerte",
+      "subtitulo": "Para 1 pavo natural de 6 a 8 kg",
+      "ingredientes": [
+        {
+          "grupo": null,
+          "items": [
+            "1 kg de carne molida de res",
+            "1 kg de jitomate asado, licuado y colado",
+            "1/2 cebolla finamente picada",
+            "3 dientes de ajo pelados y picados finamente",
+            "1 kg de manzana picada en trozos grandes",
+            "100 g de almendras peladas y picadas",
+            "100 g de nueces picadas",
+            "100 g de aceitunas",
+            "1 pizca de clavo",
+            "Aceite de oliva",
+            "Sal y pimienta al gusto"
+          ]
+        }
+      ],
+      "pasos": [
+        "Sofríe la cebolla y el ajo en aceite de oliva.",
+        "Agrega la carne molida y las especias (clavo, sal y pimienta). Cocina a fuego medio hasta que la carne esté casi cocida.",
+        "Añade el jitomate y déjalo hervir hasta que todo se integre muy bien.",
+        "Finalmente, agrega las almendras, las nueces, las aceitunas y las manzanas."
+      ],
+      "notas": [
+        "Puedes acompañar el pavo relleno con puré de manzana o chiles güeros, según el gusto de cada invitado."
+      ],
+      "relacionadas": ["pavo-relleno"]
+    },
+    {
+      "slug": "galletas-de-mantequilla",
+      "titulo": "Galletas de mantequilla",
+      "categoria": "postres",
+      "subtitulo": null,
+      "ingredientes": [
+        {
+          "grupo": null,
+          "items": [
+            "240 g de mantequilla",
+            "100 g de azúcar glass",
+            "400 g de harina cernida",
+            "1/2 cucharadita de vainilla",
+            "2 yemas de huevo"
+          ]
+        }
+      ],
+      "pasos": [
+        "Precalienta el horno a 200 °C. Engrasa con un poco de mantequilla y enharina una charola para hornear.",
+        "Mezcla la mantequilla con el azúcar. Agrega las yemas, la vainilla y, por último, poco a poco la harina, hasta lograr una masa blanda. Guárdala en el refrigerador mínimo 2 horas.",
+        "Pasado ese tiempo, saca la masa. Toma una bolita mediana y extiéndela con un rodillo sobre una superficie enharinada, hasta que tenga un grosor de 3 mm.",
+        "Corta las galletas con cortadores y acomódalas sobre la charola.",
+        "Hornea por 10 minutos o hasta que las orillas estén doradas.",
+        "Sácalas y déjalas enfriar antes de manipularlas para evitar que se rompan."
+      ],
+      "notas": [],
+      "relacionadas": []
+    },
+    {
+      "slug": "manzanas-rellenas",
+      "titulo": "Manzanas rellenas",
+      "categoria": "postres",
+      "subtitulo": null,
+      "ingredientes": [
+        {
+          "grupo": null,
+          "items": [
+            "4 manzanas peladas",
+            "2 cucharadas de mantequilla",
+            "1 taza de nuez picada",
+            "1 taza de dulce de leche",
+            "1 paquete de pasta de hojaldre",
+            "1/2 taza de harina (para enharinar la superficie)",
+            "1 huevo batido",
+            "2 cucharadas de azúcar mezcladas con canela"
+          ]
+        }
+      ],
+      "pasos": [
+        "Precalienta el horno a 180 °C.",
+        "Vacía las manzanas con ayuda de una cuchara, asegurándote de dejar el fondo sin romper.",
+        "Derrite la mantequilla y agrega la pulpa de las manzanas, la nuez y el dulce de leche. Rellena cada manzana con esta mezcla.",
+        "Sobre una superficie ligeramente enharinada, extiende la pasta de hojaldre y córtala en tiras de 1/2 cm de ancho.",
+        "Coloca las tiras sobre las manzanas, como si fueran la cubierta de una tarta.",
+        "Barniza el hojaldre con el huevo batido y espolvorea el azúcar con canela.",
+        "Hornea hasta que el hojaldre esté dorado y la manzana suave (aproximadamente 35 a 40 minutos)."
+      ],
+      "notas": [],
+      "relacionadas": []
+    }
+  ]
+}
