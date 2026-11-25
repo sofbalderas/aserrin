@@ -195,7 +195,7 @@ function Suscripcion({ origen, suscrito, setSuscrito }) {
     try {
       const res = await fetch(`${SUPA}/rest/v1/suscriptores`, {
         method: "POST",
-        headers: { "Content-Type": "application/json", apikey: KEY, Authorization: `Bearer ${KEY}`, Prefer: "return=minimal" },
+        headers: { "Content-Type": "application/json", apikey: KEY, ...(KEY.startsWith("eyJ") ? { Authorization: `Bearer ${KEY}` } : {}), Prefer: "return=minimal" },
         body: JSON.stringify({ contacto: esMail ? v.toLowerCase() : tel, tipo: esMail ? "correo" : "whatsapp", edicion: data.edicion, origen, ...utm() }),
       });
       if (res.ok || res.status === 409) { track("suscribirse", { origen }, "Lead"); setSuscrito(true); }
