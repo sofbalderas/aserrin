@@ -51,7 +51,7 @@ export default function App() {
       <main>
         {receta ? <Receta r={receta} {...ctx} /> : route[0] === "mi-lista" ? <MiLista {...ctx} /> : <Inicio {...ctx} />}
       </main>
-      <footer className="pie">Edición Navidad 2026 de Aserrín. En enero cambiamos de tema.</footer>
+      <footer className="pie">Edición Navidad 2026 de Aserrín</footer>
     </>
   );
 }
@@ -60,27 +60,21 @@ function Inicio({ suscrito, setSuscrito }) {
   return (
     <>
       <section className="portada">
-        <div className="marco">
-          <p className="r">Recetario</p>
-          <h1>Navideño</h1>
-          <p className="by">de Aserrín</p>
-          <p className="lema">{data.recetas.length} recetas de familia para armar tu cena de Navidad.</p>
-        </div>
+        <h1 className="solo-lector">Recetario Navideño de Aserrín</h1>
+        <img src="/portada.webp" width="1068" height="1060" alt="Recetario Navideño by Aserrín" fetchpriority="high" />
       </section>
-      <div className="wrap">
+      <div className="wrap inicio">
         {data.categorias.map((c) => (
           <section key={c.id}>
-            <h2>{c.nombre}</h2>
-            <div className="rejilla">
+            <h2 className="cat">{c.nombre}</h2>
+            <ul className="sin recetas">
               {data.recetas.filter((r) => r.categoria === c.id).map((r) => (
-                <a className="card tarjeta" key={r.slug} href={`#/receta/${r.slug}`}>
-                  <strong>{r.titulo}</strong>
-                  {r.subtitulo && <span>{r.subtitulo}</span>}
-                </a>
+                <li key={r.slug}><a className="pastilla" href={`#/receta/${r.slug}`}>{r.titulo}</a></li>
               ))}
-            </div>
+            </ul>
           </section>
         ))}
+        <img className="acebo" src="/acebo.png" width="150" height="83" alt="" />
         <Suscripcion origen="inicio" suscrito={suscrito} setSuscrito={setSuscrito} />
       </div>
     </>
@@ -211,8 +205,7 @@ function Suscripcion({ origen, suscrito, setSuscrito }) {
 
   return (
     <section className="card caja">
-      <h2>Recibe la próxima edición</h2>
-      <p>En enero cambiamos de tema, con pocas recetas bien elegidas. Déjanos tu correo o tu WhatsApp y te avisamos.</p>
+      <p className="invita">Déjanos tu correo o WhatsApp y recibe la próxima edición.</p>
       <form onSubmit={enviar} noValidate>
         <label htmlFor="contacto">Correo o WhatsApp</label>
         <input id="contacto" value={c} onChange={(e) => setC(e.target.value)} autoComplete="email" inputMode="email" />
